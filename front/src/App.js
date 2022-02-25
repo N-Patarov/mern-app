@@ -1,7 +1,9 @@
+import Form from './components/Form/form.js';
+
 export default function App() {
   return (
     <div className="App">
-      <h1>Welcome!</h1>
+      <Form />
     </div>
   );
 }
