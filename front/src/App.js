@@ -1,9 +1,12 @@
-import Form from './components/Form/form';
-import './style/index.css';
-export default function App() {
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
   return (
-    <div className="App">
-      <Form />
+    <div className="text-center text-3xl text-green-500">
+      Nai nakraq raboti
     </div>
   );
 }
+
+export default App;
